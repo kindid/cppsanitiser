@@ -10,14 +10,15 @@ However, it doesn't read like much.
 
 Pass it into 'sanitise' and you'll see something mildly nicely formatted.
 
-`{
+```cpp
     QTextStream _out(stdout);
     _out << sanitise(typeid(type_list<int,float,type_list<int,bool,void>>).name());
-}`
+```
 
 prints out...
 
-`type_list<
+```cpp
+type_list<
     int,
     float,
     type_list<
@@ -25,7 +26,7 @@ prints out...
         bool,
         void
     >
->`
+```
 
 Now you don't have to rely of failing compilation and your crazy metaprogramming
 experiments can yield many results!
