@@ -33,6 +33,6 @@ experiments can yield many results!
 
 PREREQS
 
-    * Make sure that c++filt is present and accessible to you application
+* Make sure that c++filt is present and accessible to you application
 
 matthew@kuiash.com
